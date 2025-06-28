@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk-slim
 EXPOSE 8080
-ADD target/jenkins-0.0.1-SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+ADD target/devops-integration-0.0.1-SNAPSHOT.jar devops-integration.jar
+ENTRYPOINT ["java","-jar","/devops-integration.jar"]
